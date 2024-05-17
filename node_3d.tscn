@@ -14,7 +14,7 @@ ambient_light_source = 3
 [sub_resource type="PlaneMesh" id="PlaneMesh_akmka"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_026il"]
-albedo_color = Color(0.780392, 0.662745, 0.372549, 1)
+albedo_color = Color(0.333333, 0, 0.0980392, 1)
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_r4p4y"]
 data = PackedVector3Array(1, 0, 1, -1, 0, 1, 1, 0, -1, -1, 0, 1, -1, 0, -1, 1, 0, -1)
@@ -64,4 +64,4 @@ metadata/_edit_group_ = true
 shape = SubResource("ConcavePolygonShape3D_7enge")
 
 [node name="player" parent="." instance=ExtResource("1_ybkhn")]
-jump_velocity = 7.0
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.02612, -5.6839e-07, 5.66215)
